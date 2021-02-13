@@ -25,3 +25,19 @@ import IconButton from '@marcoparrone/iconbutton';
 <IconButton label="Add a bookmark" icon='add' callback={event => this.props.addNode(this.props.id)} />
 
 ```
+
+It is important to include the material icons in the HTML page. I usually include them directly in the static HTML page:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+...
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+...
+  </head>
+  <body>
+...
+  </body>
+</html>
+```
